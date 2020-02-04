@@ -1,10 +1,15 @@
-# [Traccar Client for iOS](https://www.traccar.org/client)
+# RPC-Tracker 
+A changed Version of the [Traccar Client for iOS](https://www.traccar.org/client)
 
 [![Download on the App Store](http://www.tananaev.com/badges/app-store.svg)](https://itunes.apple.com/app/traccar-client/id843156974)
+## Changes to the original [Traccar Client for iOS](https://www.traccar.org/client)
+1. A new Option for disabeling the buffering if offline
+2. Insert the default values for the PRC Racing event (roundpalagruza.at) for an easy use. 
 
 ## Overview
 
-Traccar Client is an iOS GPS tracking application. It can work with Traccar open source server software.
+RPC-Tracker Client is an iOS GPS tracking application. It can work with [Traccar open source server software](https://github.com/traccar/traccar).
+
 
 ## Build
 
@@ -13,10 +18,6 @@ Project uses CocoaPods for dependencies management. To build the project you nee
 ```
 pod install
 ```
-
-## Team
-
-- Anton Tananaev ([anton@traccar.org](mailto:anton@traccar.org))
 
 ## License
 
