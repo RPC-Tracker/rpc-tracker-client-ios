@@ -1,8 +1,8 @@
 # RPC-Tracker 
-A changed Version of the [Traccar Client for iOS](https://www.traccar.org/client)
+A changed Version of the [Traccar Client for iOS](https://github.com/traccar/traccar-client-ios)
 
 [![Download on the App Store](http://www.tananaev.com/badges/app-store.svg)](https://itunes.apple.com/app/traccar-client/id843156974)
-## Changes to the original [Traccar Client for iOS](https://www.traccar.org/client)
+## Changes to the original [Traccar Client for iOS](https://github.com/traccar/traccar-client-ios)
 1. A new Option for disabeling the buffering if offline
 2. Insert the default values for the PRC Racing event (roundpalagruza.at) for an easy use. 
 
