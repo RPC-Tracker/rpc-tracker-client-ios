@@ -29,7 +29,7 @@ class CoreDataTests: XCTestCase {
 
         persistentStoreCoordinator = NSPersistentStoreCoordinator(managedObjectModel: managedObjectModel!)
         
-        managedObjectContext = NSManagedObjectContext()
+        managedObjectContext = NSManagedObjectContext(concurrencyType: .mainQueueConcurrencyType)
         managedObjectContext?.persistentStoreCoordinator = persistentStoreCoordinator
     }
 
