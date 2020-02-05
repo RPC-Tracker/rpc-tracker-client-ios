@@ -103,7 +103,7 @@
 		CE4B810A1EC71D4800D1C41D /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/MainStoryboard.strings; sourceTree = "<group>"; };
 		CE4B810B1EC71D4800D1C41D /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
 		CE5899C71B115C9100ED70D2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		CED4871817DB1BF6007FCF57 /* TraccarClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TraccarClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CED4871817DB1BF6007FCF57 /* RPC - Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RPC - Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CED4871B17DB1BF6007FCF57 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CED4871D17DB1BF6007FCF57 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CED4871F17DB1BF6007FCF57 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -172,7 +172,7 @@
 		CED4871917DB1BF6007FCF57 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CED4871817DB1BF6007FCF57 /* TraccarClient.app */,
+				CED4871817DB1BF6007FCF57 /* RPC - Tracker.app */,
 				CEE286CE1B80839700AE7E83 /* TraccarClientTests.xctest */,
 			);
 			name = Products;
@@ -283,7 +283,7 @@
 			);
 			name = TraccarClient;
 			productName = TraccarClient;
-			productReference = CED4871817DB1BF6007FCF57 /* TraccarClient.app */;
+			productReference = CED4871817DB1BF6007FCF57 /* RPC - Tracker.app */;
 			productType = "com.apple.product-type.application";
 		};
 		CEE286CD1B80839600AE7E83 /* TraccarClientTests */ = {
@@ -316,7 +316,7 @@
 				ORGANIZATIONNAME = Traccar;
 				TargetAttributes = {
 					CED4871717DB1BF6007FCF57 = {
-						DevelopmentTeam = YW49KTJKFW;
+						DevelopmentTeam = PWB59U8J5H;
 						LastSwiftMigration = 1100;
 					};
 					CEE286CD1B80839600AE7E83 = {
@@ -636,7 +636,7 @@
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 55;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = YW49KTJKFW;
+				DEVELOPMENT_TEAM = PWB59U8J5H;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TraccarClient/TraccarClient-Prefix.pch";
@@ -645,8 +645,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MARKETING_VERSION = 6.0;
 				OTHER_SWIFT_FLAGS = "-D FIREBASE";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.traccar.client.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "axtesys.rpc-tracker";
+				PRODUCT_NAME = "RPC - Tracker";
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
@@ -797,7 +797,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 55;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = YW49KTJKFW;
+				DEVELOPMENT_TEAM = PWB59U8J5H;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TraccarClient/TraccarClient-Prefix.pch";
@@ -805,8 +805,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MARKETING_VERSION = 6.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.traccar.client.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "axtesys.rpc-tracker";
+				PRODUCT_NAME = "RPC - Tracker";
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -827,7 +827,7 @@
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 55;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = YW49KTJKFW;
+				DEVELOPMENT_TEAM = PWB59U8J5H;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TraccarClient/TraccarClient-Prefix.pch";
@@ -835,8 +835,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MARKETING_VERSION = 6.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.traccar.client.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "axtesys.rpc-tracker";
+				PRODUCT_NAME = "RPC - Tracker";
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
