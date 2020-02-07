@@ -45,4 +45,13 @@ public class DatabaseHelper: NSObject {
         managedObjectContext.delete(position)
     }
 
+    public func deletePositions() {
+        let fetchRequest = NSFetchRequest<NSFetchRequestResult>(entityName: "Position")
+        let batchDeleteRequest = NSBatchDeleteRequest(fetchRequest: fetchRequest)
+
+        do {
+            try managedObjectContext.execute(batchDeleteRequest)
+        } catch {
+        }
+    }
 }
