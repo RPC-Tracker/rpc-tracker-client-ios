@@ -85,6 +85,9 @@ class TrackingController: NSObject, PositionProviderDelegate, NetworkManagerDele
     func write(_ position: Position) {
         let context = DatabaseHelper().managedObjectContext
         if context.hasChanges {
+            if !userDefaults.bool(forKey: "buffer_preference") {
+                databaseHelper.deletePositions()
+            }
             try? context.save()
         }
         if self.online && self.waiting {
